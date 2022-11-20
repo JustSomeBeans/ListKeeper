@@ -9,7 +9,7 @@ def inpt(): #console checking function
     bypass = 0 #way of bypassing bullshit code order idk if i need this left it in anyway
     inp = str(input("\n")) #gets user command input
     if inp[0:5] == "/help": #detects /help in inp string
-        print("/add [username] - adds a new user to the rotation\n/new - adds a new player to the rototation behind the player's who turn it is\n/next - tells you which user is next\n/order - gives you the rotation order\n/remove [username] - removes a user from the rotation")
+        print("/add [username] - adds a user to the rotation\n/new [username] - adds a new player to the rototation behind the player's who turn it is\n/next - tells you which user is next\n/order - gives you the rotation order\n/remove [username] - removes a user from the rotation")
         #line above listing the available commands
     if inp[0:5] == "/add ": #detects /add in inp string
         if verify == 0:
