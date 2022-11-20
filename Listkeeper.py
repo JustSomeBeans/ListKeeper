@@ -34,7 +34,7 @@ def inpt(): #console checking function
         elif turn != count and bypass == 0: #prints who's turn it is and updates who's next
             print("It is " + lit[(turn - 1)] + "'s turn\n") #console repsonse
             turn = turn + 1 #updates turn
-        bypass = 1
+        bypass = 0
 
     if inp.lower[0:8] == "/remove ":
         lit.remove(inp.replace("/remove ", "")) #removes player frrom the list
