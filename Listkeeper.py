@@ -38,7 +38,7 @@ def add_to_rotation():
 def help_menu():
     print("1. Add player\n2. Remove player\n3. Next player\n4. View players\n5. Add player to rotation\n6. Help\n7. Quit\n")
 
-print("Welcome to Listkeeper 2.0 by JustSomeBeans!\nTo get started enter the number corresponding to your selection\n")
+print("Welcome to Listkeeper v2.1 by JustSomeBeans!\nTo get started enter the number corresponding to your selection\n")
 
 while True:
     print("1. Add player\n2. Remove player\n3. Next player\n4. View players\n5. Add player to rotation\n6. Help\n7. Quit")
